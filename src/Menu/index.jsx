@@ -1,11 +1,13 @@
 import React from 'react';
-import Logo from '../assets/img/logo.png'
+import Logo from '../assets/img/logo.png';
+
+import './Menu.css';
 
 export default function Menu(){
     return (
         <nav>
             Tuiflix
-            <img src={Logo} alt="TuiFlix logo" />
+            <img className="logo" src={Logo} alt="TuiFlix logo" />
         </nav>
     );
 }
