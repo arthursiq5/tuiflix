@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonLink from '../components/ButtonLink';
 import Logo from '../../assets/img/logo.png';
 
 import './Menu.css';
@@ -10,9 +11,9 @@ export default function Menu(){
                 <img className="Logo" src={Logo} alt="TuiFlix logo" />
             </a>
 
-            <a className="ButtonLink" href="/">
+            <ButtonLink className="ButtonLink" url="/">
                 Novo vídeo
-            </a>
+            </ButtonLink>
         </nav>
     );
 }
