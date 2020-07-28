@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Menu(){
     return (
-        <header>
+        <nav>
             Tuiflix
-        </header>
+        </nav>
     );
 }
