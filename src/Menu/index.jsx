@@ -5,9 +5,10 @@ import './Menu.css';
 
 export default function Menu(){
     return (
-        <nav>
-            Tuiflix
-            <img className="logo" src={Logo} alt="TuiFlix logo" />
+        <nav className="Menu">
+            <a href="/">
+                <img className="Logo" src={Logo} alt="TuiFlix logo" />
+            </a>
         </nav>
     );
 }
