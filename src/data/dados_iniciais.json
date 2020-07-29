@@ -1,6 +1,37 @@
 {
   "categorias": [
     {
+      "titulo": "Quack Redação",
+      "link": "https://quackredacao.com.br/",
+      "cor": "#ed7a21",
+      "link_extra": {
+        "text": "Quack Redação - Inscreva-se para o melhor projeto de ensino de redação para o ENEM da internet",
+        "url": "https://quackredacao.com.br/area-quackers/"
+      },
+      "videos": [
+        {
+          "titulo": "Evasão escolar | Dicas e argumentos para redação | ENEM 2020, vestibular e concursos",
+          "url": "https://www.youtube.com/watch?v=sk7G6aDpVks"
+        },
+        {
+          "titulo": "Inclusão Digital no Brasil | Dicas e argumentos para redação | ENEM 2020, vestibular e concursos",
+          "url": "https://www.youtube.com/watch?v=7n_hb8kNF_Y"
+        },
+        {
+          "titulo": "O que é SAÚDE COLETIVA e o que é saúde pública | Enem e vestibular 2020",
+          "url": "https://www.youtube.com/watch?v=Y3FFIYH7O5Q"
+        },
+        {
+          "titulo": "Automedicação | Dicas e argumentos para redação | ENEM 2020, vestibular e concursos",
+          "url": "https://www.youtube.com/watch?v=O4D-b9dXevY"
+        },
+        {
+          "titulo": "Privacidade na Internet | Dicas e argumentos para redação | ENEM 2020, vestibular e concursos",
+          "url": "https://www.youtube.com/watch?v=oSwX_KXGL3s"
+        }
+      ]
+    },
+    {
       "titulo": "Front End",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
