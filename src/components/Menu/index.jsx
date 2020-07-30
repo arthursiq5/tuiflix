@@ -1,5 +1,4 @@
 import React from 'react';
-import ButtonLink from '../components/ButtonLink';
 import Logo from '../../assets/img/logo.png';
 import Button from '../Button';
 
