@@ -14,8 +14,9 @@ function CadastroVideo(){
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-    <Route path="/cadastro/video" component={CadastroVideo} />
-      <Route path="/" component={App} />
+      <Route exact path="/" component={App} />
+      <Route path="/cadastro/video" component={CadastroVideo} />
+      <Route component={() => <div>Not found</div>} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
