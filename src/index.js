@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import CadastroVideo from './pages/cadastro/Video';
+
 import './index.css';
 
 
-function CadastroVideo(){
-  return <div>
-    Página de cadastro de Vídeo
-  </div>
-}
+
 
 ReactDOM.render(
   <BrowserRouter>
