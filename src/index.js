@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+
 import Main from './pages/Main';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video';
 
-import './index.css';
 
 ReactDOM.render(
   <BrowserRouter>
