@@ -35,8 +35,8 @@ export default function CadastroCategoria() {
             </form>
 
             <ul>
-                {categorias.map((categoria) => {
-                    return <li key={categoria}>
+                {categorias.map((categoria, index) => {
+                    return <li key={`${categoria} ${index}`}>
                         {categoria}
                     </li>
                 })}
