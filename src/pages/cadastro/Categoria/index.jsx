@@ -14,7 +14,6 @@ export default function CadastroCategoria() {
 
             <form onSubmit={function handleSubmit(event){
                 event.preventDefault();
-                console.log('Tentativa de envio do formulário');
                 setCategorias([
                     ...categorias,
                     nomeDaCategoria
@@ -26,12 +25,7 @@ export default function CadastroCategoria() {
                 <input
                 type="text"
                 value={nomeDaCategoria}
-                onChange={((dadosDoEvento) => {
-                        console.log("executou");
-                        console.log("[dados.target]", dadosDoEvento.target.value);
-                        setNomeDaCategoria(dadosDoEvento.target.value);
-                    }
-                )}
+                onChange={((dadosDoEvento) => setNomeDaCategoria(dadosDoEvento.target.value))}
                 />
             </label>
 
