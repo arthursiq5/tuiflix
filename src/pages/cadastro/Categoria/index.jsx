@@ -8,7 +8,7 @@ function CadastroCategoria() {
         nome: '',
         descricao: '',
         cor: '',
-    }
+    };
     const [categorias, setCategorias] = useState([]);
     const [values, setValues] = useState(valoresIniciais);
 
@@ -22,7 +22,7 @@ function CadastroCategoria() {
     function handleChange(infosDoEvento) {
         setValue(
             infosDoEvento.target.getAttribute('name'),
-            infosDoEvento.target.value
+            infosDoEvento.target.value,
         );
     }
 
@@ -53,7 +53,7 @@ function CadastroCategoria() {
                 />
 
                 <FormField
-                    label="Descrição:"
+                    label="Descrição"
                     type="????"
                     name="descricao"
                     value={values.descricao}
@@ -87,7 +87,7 @@ function CadastroCategoria() {
                 Ir para home
             </Link>
         </PageDefault>
-    )
+    );
 }
 
 export default CadastroCategoria;
